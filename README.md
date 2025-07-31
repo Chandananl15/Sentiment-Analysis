@@ -20,11 +20,9 @@ VADER outputs:
 ## 🚀 How to Run
 
 ### 1. 📦 Install Dependencies
-```bash
 pip install pandas nltk
 
 ### 2. Run Sentiment_analysis_vader.py file
-'''bash
 python Sentiment_analysis_vader.py
 
 
