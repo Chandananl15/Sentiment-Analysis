@@ -1,23 +1,26 @@
 # Sentiment-Analysis
-Sentiment analysis using Twitter tweets
+Sentiment analysis using Twitter dataset
 
-# Twitter Sentiment Analysis Dashboard
+# Twitter Sentiment Analysis using VADER
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32.0-FF4B4B)
-![Twitter API](https://img.shields.io/badge/Twitter_API-v2-1DA1F2)
+## 📂 Dataset
+This project uses two datasets:
+- `twitter_training.csv` (large training set)
+- `twitter_validation.csv` (used for evaluation)
 
-A real-time sentiment analysis tool that analyzes tweets using NLP and displays interactive visualizations.
+Each dataset contains tweets labeled with sentiments: `Positive`, `Negative`, `Neutral`, and `Irrelevant`.
 
-![Dashboard Screenshot](./assets/app_screenshot.png)
+## 🧠 What is VADER?
+**VADER (Valence Aware Dictionary and sEntiment Reasoner)** is a rule-based sentiment analysis tool specifically designed for social media text. It’s part of the `nltk` library and excels at analyzing short, informal text like tweets, using a lexicon and heuristics to assign sentiment scores.
 
-## Features
+VADER outputs:
+- **Positive**, **Negative**, **Neutral** scores
+- A **compound score** summarizing overall sentiment
 
-- Fetch recent tweets by keyword/hashtag
-- Sentiment classification (Positive/Negative/Neutral)
-- Interactive visualizations:
-  - Sentiment distribution pie chart
-  - Word cloud of frequent terms
-  - Polarity score histogram
-- Export results to CSV
+## 🚀 How to Run
+
+### 1. 📦 Install Dependencies
+```bash
+pip install pandas nltk
+
 
