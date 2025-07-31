@@ -1,8 +1,3 @@
-Here is your complete `README.md` file content, including the new section for creating the `results` folder:
-
----
-
-````markdown
 # Sentiment-Analysis  
 Sentiment analysis using Twitter dataset
 
@@ -36,7 +31,6 @@ VADER outputs:
 Install required libraries using pip:
 ```bash
 pip install pandas nltk
-````
 
 #### 2. 📁 Create `results` Folder
 
